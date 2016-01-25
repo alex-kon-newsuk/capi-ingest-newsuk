@@ -1,0 +1,22 @@
+{
+  "name": "capi-ingest-newsuk",
+  "version": "0.0.1",
+  "description": "Sample node.js service ",
+  "main": "app.js",
+  "author": "News UK",
+  "license": "?",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "config": "^1.19.0",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "promise": "^7.1.1",
+    "request": "^2.67.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
